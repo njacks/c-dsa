@@ -1,5 +1,6 @@
 COMMON_SOURCES = \
     src/list.c \
+    src/queue.c \
     src/stack.c
 
 # make test
