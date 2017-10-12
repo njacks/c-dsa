@@ -8,5 +8,6 @@
 
 int main(int argc, char *argv[]) {
     test_list_implementation();
+    test_stack_implementation();
     return 0;
 }
