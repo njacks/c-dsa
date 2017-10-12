@@ -11,5 +11,6 @@ int main(int argc, char *argv[]) {
     test_queue_implementation();
     test_stack_implementation();
     test_isort_list_implementation();
+    test_qsort_list_implementation();
     return 0;
 }
