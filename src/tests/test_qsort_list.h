@@ -1,5 +1,5 @@
 /*
-    test_isort_list.c
+    test_qsort_list.c
 */
 
 #include <assert.h>
@@ -10,7 +10,7 @@
 #include "../algorithms/sort.h"
 #include "common.h"
 
-void test_isort_list_implementation() {
+void test_qsort_list_implementation() {
     List list;
     list_init(&list, free);
     int *data, i;
@@ -22,9 +22,9 @@ void test_isort_list_implementation() {
         *data = rand() % 1000;
         assert(list_ins_next(&list, list_tail(&list), data) == 0);
     }
-    
-   assert(isort_list(&list, greater_than) == 0);
-   assert(isort_list(&list, less_than) == 0);
+
+   assert(qsort_list(&list, greater_than) == 0);
+   assert(qsort_list(&list, less_than) == 0);
 
     list_destroy(&list);
     PRINT_SUCCESS();

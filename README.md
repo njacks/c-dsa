@@ -9,7 +9,8 @@ Current data structure implementations:
 
 Current algorithm implementations:
 
-* Insertion Sort for Singly Linked Lists (src/algorithsm/isort_list.c)
+* Insertion Sort for Singly Linked Lists (src/algorithms/isort_list.c)
+* Quick Sort for Singly Linked Lists (src/algorithms/qsort_list.c)
 
 ## Build Requirements
 
