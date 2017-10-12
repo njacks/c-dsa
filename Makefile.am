@@ -1,5 +1,6 @@
 COMMON_SOURCES = \
-    src/list.c
+    src/list.c \
+    src/stack.c
 
 # make test
 bin_PROGRAMS = test
