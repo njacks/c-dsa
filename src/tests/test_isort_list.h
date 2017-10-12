@@ -4,13 +4,11 @@
 
 #include <assert.h>
 #include <stdlib.h>
-#include <string.h>
 #include <time.h>
 
 #include "../data-structures/list.h"
 #include "../algorithms/sort.h"
 #include "common.h"
-
 
 void test_isort_list_implementation() {
     List list;
