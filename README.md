@@ -9,7 +9,7 @@ Current data structure implementations:
 
 Current algorithm implementations:
 
-Nothing here yet...
+* Insertion Sort for Singly Linked Lists (src/algorithsm/isort_list.c)
 
 ## Build Requirements
 
