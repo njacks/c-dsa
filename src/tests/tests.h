@@ -6,6 +6,7 @@
 #define TESTS_H
 
 #include "test_list.h"
+#include "test_queue.h"
 #include "test_stack.h"
 
 #endif
