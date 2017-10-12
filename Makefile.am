@@ -1,7 +1,8 @@
 COMMON_SOURCES = \
     src/list.c \
     src/queue.c \
-    src/stack.c
+    src/stack.c \
+    src/algorithms/isort_list.c
 
 # make test
 bin_PROGRAMS = test
