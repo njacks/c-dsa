@@ -4,6 +4,7 @@ A growing library of data structures and algorithms in C.
 Current data structure implementations:
 
 * Singly Linked List (src/data-structures/list.h)
+* Stack (src/data-structures/stack.h)
 
 Current algorithm implementations:
 
